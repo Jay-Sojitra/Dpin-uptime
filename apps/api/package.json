@@ -5,14 +5,22 @@
   "type": "module",
   "license": "MIT",
   "dependencies": {
+    "@solana/web3.js": "^1.89.1",
+    "@types/bun": "^1.2.12",
     "@types/express": "^5.0.1",
     "@types/jsonwebtoken": "^9.0.9",
+    "bs58": "^6.0.0",
     "cors": "^2.8.5",
     "db": "*",
+    "dotenv": "^16.5.0",
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
-    "@types/cors": "^2.8.17"
+    "@types/cors": "^2.8.17",
+    "@types/node": "^22.15.12",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
   }
 }
